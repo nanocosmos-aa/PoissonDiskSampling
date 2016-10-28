@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D1779A31DC375FA00C89F69 /* PoissonDiskSampling.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D1779991DC375FA00C89F69 /* PoissonDiskSampling.framework */; };
+		7D1779A81DC375FA00C89F69 /* PoissonDiskSamplingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1779A71DC375FA00C89F69 /* PoissonDiskSamplingTests.swift */; };
+		7D1779AA1DC375FB00C89F69 /* PoissonDiskSampling.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D17799C1DC375FA00C89F69 /* PoissonDiskSampling.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D1779B71DC3761A00C89F69 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1779B31DC3761A00C89F69 /* Grid.swift */; };
+		7D1779B81DC3761A00C89F69 /* GridPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1779B41DC3761A00C89F69 /* GridPoint.swift */; };
+		7D1779B91DC3761A00C89F69 /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1779B51DC3761A00C89F69 /* Point.swift */; };
+		7D1779BA1DC3761A00C89F69 /* PoissonDiskSampling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1779B61DC3761A00C89F69 /* PoissonDiskSampling.swift */; };
+		7D1779C21DC376C400C89F69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1779C11DC376C400C89F69 /* AppDelegate.swift */; };
+		7D1779C81DC376C400C89F69 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1779C71DC376C400C89F69 /* GameScene.swift */; };
+		7D1779CA1DC376C400C89F69 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1779C91DC376C400C89F69 /* GameViewController.swift */; };
+		7D1779CD1DC376C400C89F69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D1779CB1DC376C400C89F69 /* Main.storyboard */; };
+		7D1779CF1DC376C400C89F69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D1779CE1DC376C400C89F69 /* Assets.xcassets */; };
+		7D1779D21DC376C400C89F69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D1779D01DC376C400C89F69 /* LaunchScreen.storyboard */; };
+		7D1779F31DC3780C00C89F69 /* PoissonDiskSampling.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D1779991DC375FA00C89F69 /* PoissonDiskSampling.framework */; };
+		7D1779F41DC3780C00C89F69 /* PoissonDiskSampling.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7D1779991DC375FA00C89F69 /* PoissonDiskSampling.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7D1779A41DC375FA00C89F69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D1779901DC375FA00C89F69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D1779981DC375FA00C89F69;
+			remoteInfo = PoissonDiskSampling;
+		};
+		7D1779F51DC3780C00C89F69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D1779901DC375FA00C89F69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D1779981DC375FA00C89F69;
+			remoteInfo = PoissonDiskSampling;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7D1779F71DC3780C00C89F69 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7D1779F41DC3780C00C89F69 /* PoissonDiskSampling.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7D1779991DC375FA00C89F69 /* PoissonDiskSampling.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PoissonDiskSampling.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D17799C1DC375FA00C89F69 /* PoissonDiskSampling.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PoissonDiskSampling.h; sourceTree = "<group>"; };
+		7D17799D1DC375FA00C89F69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D1779A21DC375FA00C89F69 /* PoissonDiskSamplingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoissonDiskSamplingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D1779A71DC375FA00C89F69 /* PoissonDiskSamplingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoissonDiskSamplingTests.swift; sourceTree = "<group>"; };
+		7D1779A91DC375FB00C89F69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D1779B31DC3761A00C89F69 /* Grid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
+		7D1779B41DC3761A00C89F69 /* GridPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridPoint.swift; sourceTree = "<group>"; };
+		7D1779B51DC3761A00C89F69 /* Point.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
+		7D1779B61DC3761A00C89F69 /* PoissonDiskSampling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoissonDiskSampling.swift; sourceTree = "<group>"; };
+		7D1779BF1DC376C300C89F69 /* PoissonDiskSamplingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PoissonDiskSamplingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D1779C11DC376C400C89F69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7D1779C71DC376C400C89F69 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		7D1779C91DC376C400C89F69 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		7D1779CC1DC376C400C89F69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7D1779CE1DC376C400C89F69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7D1779D11DC376C400C89F69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7D1779D31DC376C400C89F69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D1779951DC375FA00C89F69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D17799F1DC375FA00C89F69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D1779A31DC375FA00C89F69 /* PoissonDiskSampling.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D1779BC1DC376C300C89F69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D1779F31DC3780C00C89F69 /* PoissonDiskSampling.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D17798F1DC375FA00C89F69 = {
+			isa = PBXGroup;
+			children = (
+				7D17799B1DC375FA00C89F69 /* PoissonDiskSampling */,
+				7D1779A61DC375FA00C89F69 /* PoissonDiskSamplingTests */,
+				7D1779C01DC376C400C89F69 /* PoissonDiskSamplingDemo */,
+				7D17799A1DC375FA00C89F69 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D17799A1DC375FA00C89F69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D1779991DC375FA00C89F69 /* PoissonDiskSampling.framework */,
+				7D1779A21DC375FA00C89F69 /* PoissonDiskSamplingTests.xctest */,
+				7D1779BF1DC376C300C89F69 /* PoissonDiskSamplingDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D17799B1DC375FA00C89F69 /* PoissonDiskSampling */ = {
+			isa = PBXGroup;
+			children = (
+				7D1779B61DC3761A00C89F69 /* PoissonDiskSampling.swift */,
+				7D1779B51DC3761A00C89F69 /* Point.swift */,
+				7D1779B31DC3761A00C89F69 /* Grid.swift */,
+				7D1779B41DC3761A00C89F69 /* GridPoint.swift */,
+				7D17799C1DC375FA00C89F69 /* PoissonDiskSampling.h */,
+				7D17799D1DC375FA00C89F69 /* Info.plist */,
+			);
+			path = PoissonDiskSampling;
+			sourceTree = "<group>";
+		};
+		7D1779A61DC375FA00C89F69 /* PoissonDiskSamplingTests */ = {
+			isa = PBXGroup;
+			children = (
+				7D1779A71DC375FA00C89F69 /* PoissonDiskSamplingTests.swift */,
+				7D1779A91DC375FB00C89F69 /* Info.plist */,
+			);
+			path = PoissonDiskSamplingTests;
+			sourceTree = "<group>";
+		};
+		7D1779C01DC376C400C89F69 /* PoissonDiskSamplingDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7D1779C11DC376C400C89F69 /* AppDelegate.swift */,
+				7D1779C71DC376C400C89F69 /* GameScene.swift */,
+				7D1779C91DC376C400C89F69 /* GameViewController.swift */,
+				7D1779CB1DC376C400C89F69 /* Main.storyboard */,
+				7D1779CE1DC376C400C89F69 /* Assets.xcassets */,
+				7D1779D01DC376C400C89F69 /* LaunchScreen.storyboard */,
+				7D1779D31DC376C400C89F69 /* Info.plist */,
+			);
+			path = PoissonDiskSamplingDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7D1779961DC375FA00C89F69 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D1779AA1DC375FB00C89F69 /* PoissonDiskSampling.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7D1779981DC375FA00C89F69 /* PoissonDiskSampling */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D1779AD1DC375FB00C89F69 /* Build configuration list for PBXNativeTarget "PoissonDiskSampling" */;
+			buildPhases = (
+				7D1779941DC375FA00C89F69 /* Sources */,
+				7D1779951DC375FA00C89F69 /* Frameworks */,
+				7D1779961DC375FA00C89F69 /* Headers */,
+				7D1779971DC375FA00C89F69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PoissonDiskSampling;
+			productName = PoissonDiskSampling;
+			productReference = 7D1779991DC375FA00C89F69 /* PoissonDiskSampling.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7D1779A11DC375FA00C89F69 /* PoissonDiskSamplingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D1779B01DC375FB00C89F69 /* Build configuration list for PBXNativeTarget "PoissonDiskSamplingTests" */;
+			buildPhases = (
+				7D17799E1DC375FA00C89F69 /* Sources */,
+				7D17799F1DC375FA00C89F69 /* Frameworks */,
+				7D1779A01DC375FA00C89F69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D1779A51DC375FA00C89F69 /* PBXTargetDependency */,
+			);
+			name = PoissonDiskSamplingTests;
+			productName = PoissonDiskSamplingTests;
+			productReference = 7D1779A21DC375FA00C89F69 /* PoissonDiskSamplingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7D1779BE1DC376C300C89F69 /* PoissonDiskSamplingDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D1779F01DC376C400C89F69 /* Build configuration list for PBXNativeTarget "PoissonDiskSamplingDemo" */;
+			buildPhases = (
+				7D1779BB1DC376C300C89F69 /* Sources */,
+				7D1779BC1DC376C300C89F69 /* Frameworks */,
+				7D1779BD1DC376C300C89F69 /* Resources */,
+				7D1779F71DC3780C00C89F69 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D1779F61DC3780C00C89F69 /* PBXTargetDependency */,
+			);
+			name = PoissonDiskSamplingDemo;
+			productName = PoissonDiskSamplingDemo;
+			productReference = 7D1779BF1DC376C300C89F69 /* PoissonDiskSamplingDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D1779901DC375FA00C89F69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Anna Afanasyeva";
+				TargetAttributes = {
+					7D1779981DC375FA00C89F69 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 57285NXFY9;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+					7D1779A11DC375FA00C89F69 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 57285NXFY9;
+						ProvisioningStyle = Automatic;
+					};
+					7D1779BE1DC376C300C89F69 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 57285NXFY9;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7D1779931DC375FA00C89F69 /* Build configuration list for PBXProject "PoissonDiskSampling" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7D17798F1DC375FA00C89F69;
+			productRefGroup = 7D17799A1DC375FA00C89F69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D1779981DC375FA00C89F69 /* PoissonDiskSampling */,
+				7D1779A11DC375FA00C89F69 /* PoissonDiskSamplingTests */,
+				7D1779BE1DC376C300C89F69 /* PoissonDiskSamplingDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D1779971DC375FA00C89F69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D1779A01DC375FA00C89F69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D1779BD1DC376C300C89F69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D1779CD1DC376C400C89F69 /* Main.storyboard in Resources */,
+				7D1779CF1DC376C400C89F69 /* Assets.xcassets in Resources */,
+				7D1779D21DC376C400C89F69 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D1779941DC375FA00C89F69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D1779B81DC3761A00C89F69 /* GridPoint.swift in Sources */,
+				7D1779BA1DC3761A00C89F69 /* PoissonDiskSampling.swift in Sources */,
+				7D1779B71DC3761A00C89F69 /* Grid.swift in Sources */,
+				7D1779B91DC3761A00C89F69 /* Point.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D17799E1DC375FA00C89F69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D1779A81DC375FA00C89F69 /* PoissonDiskSamplingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D1779BB1DC376C300C89F69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D1779C81DC376C400C89F69 /* GameScene.swift in Sources */,
+				7D1779CA1DC376C400C89F69 /* GameViewController.swift in Sources */,
+				7D1779C21DC376C400C89F69 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7D1779A51DC375FA00C89F69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D1779981DC375FA00C89F69 /* PoissonDiskSampling */;
+			targetProxy = 7D1779A41DC375FA00C89F69 /* PBXContainerItemProxy */;
+		};
+		7D1779F61DC3780C00C89F69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D1779981DC375FA00C89F69 /* PoissonDiskSampling */;
+			targetProxy = 7D1779F51DC3780C00C89F69 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7D1779CB1DC376C400C89F69 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D1779CC1DC376C400C89F69 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7D1779D01DC376C400C89F69 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D1779D11DC376C400C89F69 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7D1779AB1DC375FB00C89F69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7D1779AC1DC375FB00C89F69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7D1779AE1DC375FB00C89F69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 57285NXFY9;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = PoissonDiskSampling/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = anna.afanasyeva.PoissonDiskSampling;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7D1779AF1DC375FB00C89F69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 57285NXFY9;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = PoissonDiskSampling/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = anna.afanasyeva.PoissonDiskSampling;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		7D1779B11DC375FB00C89F69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 57285NXFY9;
+				INFOPLIST_FILE = PoissonDiskSamplingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = anna.afanasyeva.PoissonDiskSamplingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7D1779B21DC375FB00C89F69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 57285NXFY9;
+				INFOPLIST_FILE = PoissonDiskSamplingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = anna.afanasyeva.PoissonDiskSamplingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		7D1779EA1DC376C400C89F69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 57285NXFY9;
+				INFOPLIST_FILE = PoissonDiskSamplingDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = anna.afanasyeva.PoissonDiskSamplingDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7D1779EB1DC376C400C89F69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 57285NXFY9;
+				INFOPLIST_FILE = PoissonDiskSamplingDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = anna.afanasyeva.PoissonDiskSamplingDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D1779931DC375FA00C89F69 /* Build configuration list for PBXProject "PoissonDiskSampling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D1779AB1DC375FB00C89F69 /* Debug */,
+				7D1779AC1DC375FB00C89F69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D1779AD1DC375FB00C89F69 /* Build configuration list for PBXNativeTarget "PoissonDiskSampling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D1779AE1DC375FB00C89F69 /* Debug */,
+				7D1779AF1DC375FB00C89F69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D1779B01DC375FB00C89F69 /* Build configuration list for PBXNativeTarget "PoissonDiskSamplingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D1779B11DC375FB00C89F69 /* Debug */,
+				7D1779B21DC375FB00C89F69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D1779F01DC376C400C89F69 /* Build configuration list for PBXNativeTarget "PoissonDiskSamplingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D1779EA1DC376C400C89F69 /* Debug */,
+				7D1779EB1DC376C400C89F69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D1779901DC375FA00C89F69 /* Project object */;
+}
