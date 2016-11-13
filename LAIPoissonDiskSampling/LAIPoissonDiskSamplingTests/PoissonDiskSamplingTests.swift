@@ -1,13 +1,13 @@
 //
 //  PoissonDiskSamplingTests.swift
-//  PoissonDiskSamplingTests
+//  LAIPoissonDiskSamplingTests
 //
 //  Created by Anna Afanasyeva on 28/10/2016.
 //  Copyright © 2016 Anna Afanasyeva. All rights reserved.
 //
 
 import XCTest
-@testable import PoissonDiskSampling
+@testable import LAIPoissonDiskSampling
 
 class PoissonDiskSamplingTests: XCTestCase {
     

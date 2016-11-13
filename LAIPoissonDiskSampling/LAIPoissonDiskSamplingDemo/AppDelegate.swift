@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  PoissonDiskSamplingDemo
+//  LAIPoissonDiskSamplingDemo
 //
 //  Created by Anna Afanasyeva on 28/10/2016.
 //  Copyright © 2016 Anna Afanasyeva. All rights reserved.
